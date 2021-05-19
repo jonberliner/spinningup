@@ -5,7 +5,6 @@ import os.path as osp
 # (Must be either 'tf1' or 'pytorch')
 DEFAULT_BACKEND = {
     'vpg': 'pytorch',
-    'trpo': 'tf1',
     'ppo': 'pytorch',
     'ddpg': 'pytorch',
     'td3': 'pytorch',
